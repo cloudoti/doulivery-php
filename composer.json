@@ -1,0 +1,18 @@
+{
+    "name": "cloudoti/doulivery-php",
+    "description": "Library for doulivery real time API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Roncal",
+            "email": "daniel.roncal.87@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "php": ">=5.4 <7.4",
+        "ext-curl": "*",
+        "composer/installers": "~1.0"
+    }
+
+}
