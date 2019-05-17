@@ -18,12 +18,12 @@ class Doulivery
    */
   private $settings = array(
     'environment' => 'production',
-    'scheme' => 'http',
-    'port' => 8080,
+    'scheme' => 'https',
+    'port' => 443,
     'timeout' => 30,
     'debug' => false,
     'curl_options' => array(),
-    'host' => 'localhost',
+    'host' => 'api.doulivery.io',
     'base_path' => 'api',
   );
   /**
