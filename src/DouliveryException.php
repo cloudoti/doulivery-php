@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Application\Helper\Doulivery;
+namespace Doulivery;
 
 use Exception;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Application\Helper\Doulivery;
+namespace Doulivery;
 
 use Psr\Log\LogLevel;
 
