@@ -10,7 +10,7 @@ class Doulivery
   /**
    * @var string Version
    */
-  public static $VERSION = '2019.04';
+  public static $VERSION = '0.1';
 
   private $log;
   /**
