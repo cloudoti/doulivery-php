@@ -14,6 +14,13 @@
         "ext-curl": "*",
         "psr/log": "^1.0",
         "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doulivery\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
     }
-
 }
