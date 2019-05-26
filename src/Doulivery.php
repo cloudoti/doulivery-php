@@ -354,7 +354,7 @@ class Doulivery
     if ($this->settings['environment'] == 'production') {
       $s_url = $this->settings['base_path'] . sprintf('/app/%s/publish', $this->settings['app_id']);
     } else {
-      $s_url = $this->settings['base_path'] . sprintf('/app/%s/environment/:key/publish', $this->settings['app_id'], $this->settings['environment']);
+      $s_url = $this->settings['base_path'] . sprintf('/app/%s/environment/%s/publish', $this->settings['app_id'], $this->settings['environment']);
     }
 
     if (!$data_encoded) {
